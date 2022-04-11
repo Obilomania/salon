@@ -233,11 +233,32 @@ transform: translateY(100PX);
     animation-delay: 9s;
 }
 
+/* About */
 
-
-
-
-
+.about__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about__content{
+    margin: 4rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.about__content img{
+    width: 20rem;
+}
+.about__writeup{
+    width: 100%;
+    gap: 2rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
