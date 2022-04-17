@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+.landing__body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.landing__body img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.menu-bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.logo span{
+    color: red;
+}
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    z-index: 1000;
+}
+.menu-bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu-bar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+
+
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+    color:red;
+}
+
+.dropdown-menu{
+    display: none;
+}
+.menu-bar ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+.menu-bar ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.welcome img{
+   
+    height: 100vh;
+    width: 100%;
+}
+.my {
+    position:absolute;
+    width: 600px;
+    color: red;
+    top:500px;
+    left: 600px;
+}
+.notes h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.head{
+    margin-left: 46%;
+}
+.lines{
+    height: 2px;
+    width: 200px;
+    margin-left: 0%;
+    background-color: red;
+}
+.gri-section img{
+    width: 400px;
+}
+.gri-section{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+}
+  

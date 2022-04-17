@@ -46,12 +46,14 @@ body{
     color:white;
     text-decoration: none;
     font-size: 20px;
-
-
     transition: all 0.3s;
 }
 .menu-bar ul li a:hover{
     color:red;
+}
+.arrow__down{
+    color: purple;
+    transform:rotateX(90deg);
 }
 
 .dropdown-menu{
@@ -234,33 +236,109 @@ transform: translateY(100PX);
 }
 
 /* About */
-
 .about__container{
+    background-color: black;
+    
+
+}
+.ceo{
+    width: 350px;
+    margin-right: 10px;
+}
+.div1{
     display: flex;
-    justify-content: center;
+    margin-top: 200px;
+    margin-left: 20%;
+    
+}
+.about-writeup{
+    padding: 38px;
+    margin-top: 80px;
+}
+.title-1{
+    margin-left: 45%;
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.line{
+    background-color: red;
+    height: 2px;
+    width: 200px;
+    margin-left: 44%;
+}
+.about-writeup h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+}
+.about-writeup h1 span{
+    color: red;
+}
+.about-writeup p{
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+.head1 h1{
+    margin-left: 50%;
+    margin-top: 5px;
+    color: black;
+    
+}
+.line1{
+    background-color: red;
+    height: 2px;
+    width: 200px;
+    margin-left: 48%;
+}
+.grid-section{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 10px;
     align-items: center;
-    width: 100%;
-}
-.about__content{
-    margin: 4rem 10rem;
-    display: flex;
     justify-content: center;
-    align-items:center;
-    flex-direction: column;
 }
-.about__content img{
-    width: 20rem;
+.grid-section img{
+    width:400px;
+} 
+.note{
+    
+    padding: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
-.about__writeup{
-    width: 100%;
-    gap: 2rem;
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.note h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+.service-container{
+    background-color:white
+}
+footer{
+    padding: 50px;
+   
+    background-color: red;
+}
+footer h3{
+    color: white;
+    margin-left: 30%;
 }
 
 
+/* Animations */
+img{
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
 
 
     
